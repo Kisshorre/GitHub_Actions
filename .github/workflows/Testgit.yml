@@ -8,4 +8,10 @@ jobs:
         run: echo "Hello Git"
       - name: Print Welcome
         run: echo "Welcome to Manchester to play football"
+        
+      - name: Multi-Lines
+        run: | 
+            echo "First Manchester United"
+            echo "Second Manchester City"
+        
       
