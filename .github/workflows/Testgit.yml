@@ -1,0 +1,11 @@
+name: SimpleTest
+on: workflow_dispatch
+jobs:
+  testjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print HW Message 
+        run: echo "Hello Git"
+      - name: Print Welcome
+        run: echo "Welcome to Manchester to play football"
+      
