@@ -1,0 +1,13 @@
+name: firstworkflow
+on: workflow_dispatch
+jobs:
+  firstjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting message
+        run: echo "Welcome to the new GH world"
+      - name: Print signoff message
+        run: echo "Signing off this page,see you again"
+      
+  
+  
